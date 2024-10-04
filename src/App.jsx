@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Header from "./components/header/Header";
 import Sidebar from "./components/sidebar/Sidebar";
+import Main from "./ui/Main";
+import Content from "./ui/Content";
+import Profile from "./components/profile/Profile";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,7 +24,13 @@ const App = () => {
         darkMode={darkMode}
         toggleSidebar={toggleSidebar}
       />
+
       <Sidebar isSidebarOpen={isSidebarOpen} />
+
+      <Main>
+        <Content>Main content</Content>
+        <Profile />
+      </Main>
     </div>
   );
 };
