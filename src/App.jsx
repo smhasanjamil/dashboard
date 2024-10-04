@@ -6,6 +6,7 @@ import Content from "./ui/Content";
 import Profile from "./components/profile/Profile";
 import Stats from "./components/stats/Stats";
 import Team from "./components/team/Team";
+import Event from "./components/Event/Event";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -34,6 +35,7 @@ const App = () => {
           <Stats darkMode={darkMode} />
           <div className="flex flex-col gap-3 lg:flex-row">
             <Team />
+            <Event />
           </div>
         </Content>
         <Profile />
