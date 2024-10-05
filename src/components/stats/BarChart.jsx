@@ -5,7 +5,7 @@ const BarChart = ({ darkMode }) => {
     series: [
       {
         name: "Sales",
-        data: [50, 40, 300, 320, 500, 350, 200, 230, 500],
+        data: [100, 140, 350, 280, 400, 350, 200, 230, 400],
       },
     ],
     options: {

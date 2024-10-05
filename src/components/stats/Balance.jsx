@@ -11,7 +11,7 @@ const Balance = ({darkMode}) => {
       </div>
       <div>
         <h1 className="font-bold text-2xl">
-          $600,000<span className="font-medium text-xl">(USD)</span>
+          $400,000<span className="font-medium text-xl">(USD)</span>
         </h1>
         <span>on October 2024</span>
       </div>

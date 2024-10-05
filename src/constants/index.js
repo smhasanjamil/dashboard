@@ -30,7 +30,7 @@ export const links = [
   {
     href: "#",
     icon: FaCalendarAlt,
-    text: "Kanban",
+    text: "Subscription",
     badge: {
       text: "Pro",
       color: "bg-gray-100 text-gray-800",
@@ -40,7 +40,7 @@ export const links = [
   {
     href: "#",
     icon: FaFacebookMessenger,
-    text: "Inbox",
+    text: "Chat",
     badge: {
       text: "4",
       color: "bg-blue-100 text-blue-800",
@@ -59,13 +59,8 @@ export const links = [
   },
   {
     href: "#",
-    icon: IoIosLogIn,
-    text: "Sign In",
-  },
-  {
-    href: "#",
     icon: IoIosLogOut,
-    text: "Sign Up",
+    text: "Logout",
   },
 ];
 
@@ -73,19 +68,19 @@ export const empolyeesData = [
   {
     title: "Total Empolyees",
     icon: IoIosPerson,
-    count: 200,
+    count: 220,
     bgColor: "bg-gray-100",
   },
   {
     title: "On Leave",
     icon: IoIosEyeOff,
-    count: 15,
+    count: 105,
     bgColor: "bg-blue-100",
   },
   {
     title: "New Joinee",
     icon: IoIosPersonAdd,
-    count: 25,
+    count: 190,
     bgColor: "bg-yellow-100",
   },
 ];
@@ -111,14 +106,14 @@ export const shortcutLink = [
 
 export const users = [
   {
-    name: "Robert Fox",
+    name: "Hasan Jamil",
     country: "USA",
     role: "Python Developer",
     image: user01,
     bgColor: "bg-yellow-100",
   },
   {
-    name: "Jane Doe",
+    name: "Karim Khan",
     country: "UK",
     role: "Frontend Developer",
     image: user02,
